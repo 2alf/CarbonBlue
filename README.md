@@ -5,11 +5,11 @@
 MouseWithoutBorders exposes its control plane over two named pipes whose DACL grants `ReadWrite | CreateNewInstance` to **NT AUTHORITY\Authenticated Users** (every logged-on account) instead of the pipe owner. Any standard user can hijack another user's MWB session, redirect it to an attacker-controlled host, and silently carbon-copy everything they copy, type, or drag: passwords, API tokens, files.
 
 **Disclosed:** 21 August 2026<br>
-**Fixed:** October 2026 Security Update (CVE-2026-83681)<br>
+**Fix released:** October 13 2026 (CVE-2026-83681)<br>
 
 ## Affected
 
-- Microsoft PowerToys v0.100.2 ::: MouseWithoutBorders<br>
+- Microsoft PowerToys v0.100.2 ::: MouseWithoutBorders (from 0.1 before 0.102.0) <br>
 - Windows 10 / Windows 11<br>
 
 
