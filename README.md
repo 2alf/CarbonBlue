@@ -41,8 +41,8 @@ powershell -ExecutionPolicy Bypass -File .\CarbonBlue.ps1 `
 
 ## Disclaimer
 
-For educational purposes and authorized security research only.<br>
+For educational purposes and authorized security research **only**.<br>
 The repository contains a proof-of-concept and is published strictly for security research, education, and defensive testing.<br>
 Only run it against devices you own or are explicitly authorised to test. Using it against anyone else is a crime.<br>
 The author accepts no liability for any use, misuse, or damage. <br>
-You accept full responsibility for what you do with it.
+You accept **full responsibility** for what you do with it.
